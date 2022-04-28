@@ -40,6 +40,6 @@ jobs:
         
       - name: Execute shell script
         run: |
-          chmod +x ./github-actions-demo/script.sh. ./github-actions-demo/script.sh.
+          sudo chmod +x script.sh
           
         
